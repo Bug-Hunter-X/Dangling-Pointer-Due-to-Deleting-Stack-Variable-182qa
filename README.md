@@ -1,0 +1,1 @@
+This repository demonstrates a common error in C++: attempting to delete a pointer to a stack-allocated variable.  The code in `bug.cpp` illustrates the issue, leading to undefined behavior.  The solution, in `bugSolution.cpp`, avoids this by managing memory dynamically using `new` and `delete` appropriately only for dynamically allocated memory.
